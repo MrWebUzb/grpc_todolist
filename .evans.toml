@@ -1,0 +1,8 @@
+[default]
+protoFile = ["service/todo/proto/todo.proto"]
+package = "todo.service.proto"
+service = "TodoService"
+
+[server]
+host="localhost"
+port="8888"
